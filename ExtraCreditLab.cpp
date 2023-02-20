@@ -50,8 +50,6 @@ int main() {
 					depIndices[dep]++;
 				}
 
-
-
 				int whichProg;
 				for (int progChoice = 0;progChoice < 5;progChoice++) {
 
@@ -81,13 +79,6 @@ int main() {
 				}
 			}
 		}
-	}
-
-	for (int i = 0;i < 5;i++) {
-		for (int j = 0;j < 5;j++) {
-			cout << programmers[i][j] << " ";
-		}
-		cout << '\n';
 	}
 
 	for (int i = 0;i < 5;i++) {
